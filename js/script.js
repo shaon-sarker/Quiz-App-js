@@ -126,8 +126,8 @@ submitBt.addEventListener('click', () => {
             loadQuize();
 
         } else {
-            quiz.innerHTML = `<h2> <center>You answered correctly at ${score}
-            /${quizData.length} questions. <center></h2> <button onclick="location.reload();">Reload</button> `;
+            quiz.innerHTML = `<h4><center>You answered correctly at ${score}
+            /${quizData.length} questions.<center></h4> <button onclick="location.reload();">Reload</button> `;
         }
     }
 });
